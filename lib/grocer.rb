@@ -18,7 +18,7 @@ def consolidate_cart(cart)
       result << item
     else
       result.each { |x|
-        x[:count] += 1 if x == item[:item]
+        x[:count] += 1 if x[:item] == item[:item]
       }
     end  
   }
