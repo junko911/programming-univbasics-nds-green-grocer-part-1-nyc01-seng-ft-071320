@@ -1,5 +1,6 @@
 def find_item_by_name_in_collection(name, collection)
-  collection
+  collection.each { |item|
+  }
 end
 
 def consolidate_cart(cart)
